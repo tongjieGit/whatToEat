@@ -13,7 +13,7 @@ $(function () {
                 var typeNum = Math.floor(Math.random()*maninMenu.length);
                 // console.log(">>> typeNum="+typeNum);
                 subMenuUrl = maninMenu[typeNum].dataUrl;
-                console.log("懒人晚餐类型："+maninMenu[typeNum].typeName)
+                // console.log("懒人晚餐类型："+maninMenu[typeNum].typeName)
                  // $("#mainCoose").text("总票数："); 
                 $('#mainChoose').text("懒人晚餐类型是："+maninMenu[typeNum].typeName);
                 // $('#mainCoose').html("懒人的晚餐类型是："+maninMenu[typeNum].typeName);
